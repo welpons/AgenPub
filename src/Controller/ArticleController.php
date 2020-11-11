@@ -11,7 +11,7 @@ class ArticleController
         $number = random_int(0, 100);
 
         return new Response(
-            '<html><body>Lucky number: '.$number.'</body></html>'
+            '<html><body><h1>Number of articles</h1><p>Lucky number: '.$number.'</p></body></html>'
         );
     }
 }
